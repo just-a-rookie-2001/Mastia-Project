@@ -1,0 +1,161 @@
+/*Global Styles*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	display: inline-block;
+}
+.container-fluid{
+	padding: 0;
+}
+.white-link-button{
+	border: 1px solid #ffffff;
+	padding: 16px 40px;
+	color: white;
+	transition: .5s ease-in-out;
+}
+
+
+/*Header Styles*/
+.nav-link{
+	color: black;
+}
+.nav-item .active{
+	color: #26a1e4 !important;
+}
+.navbar{
+	font-family: 'Open Sans', sans-serif;
+}
+.main-nav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nav-item{
+	margin-left: 10px;
+}
+
+
+
+/*Top Banner section Styles*/
+.top-banner{
+	background-color: #22a7f0;
+	color: white;
+}
+.top-banner .container{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top-banner-header{
+	font-family: 'Play', sans-serif;
+	font-size: 24px;
+}
+.breadcrumb{
+	background-color: inherit;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-bottom: 0 !important;
+}
+.breadcrumb li {display: inline-block;}
+.breadcrumb li+li:before {
+  padding: 10px;
+  content: ">";
+}
+.breadcrumb li a {color: white;}
+
+
+
+/*Get in touch section styles*/
+.get-in-touch{
+	background-color: #26a1e4;
+	color: white; 
+}
+.get-in-touch .container{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.get-in-touch h2{
+	font-family: 'Play',sans-serif;
+	font-size: 24px;
+	line-height: 1.41;
+	margin-top: 14px;
+}
+.get-in-touch .col-lg-3{
+	text-align: right;
+}
+.white-bttn:hover{
+	background-color: white;
+	color: #26a1e4;
+	text-decoration: none;
+}
+
+
+/*Footer section styles*/
+footer{
+	background-color: #161616;
+	color: white;
+}
+footer .container{
+	padding-top: 58px;
+	padding-bottom: 51px;
+}
+footer h2{
+	color: #22a7f0;
+	font-family: 'Play', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+footer p{
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 1.42;
+}
+footer li{
+	font-size: 14px;
+	line-height: 1.74;
+}
+.col-blue{
+	color: #22a7f0;
+}
+.fa-ul{
+	margin-left: 20px;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 1199px){
+	nav img{
+		width: 260px;
+	}
+
+}
+
+@media screen  and (max-width: 991px){
+	.get-in-touch .col-lg-3, .get-in-touch .col-lg-9{
+		text-align: center;
+	}
+	nav img{
+		width: 230px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	nav img{
+		width: 180px;
+	}
+}
+
+@media screen and (max-width: 575px){
+	nav img{
+		width: 130px;
+	}
+	.top-banner-header{
+		font-size: 18px;
+	}
+	.breadcrumb{
+		font-size: 12px;
+	}
+	.breadcrumb li+li:before {
+		padding: 5px;
+	}
+}

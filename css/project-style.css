@@ -1,0 +1,68 @@
+/*Recent Projects Styles*/
+.recent-projects .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.recent-projects h1{
+    font-family: 'Play', sans-serif;
+    font-size: 35px;
+    color: #26a1e4;
+    margin-bottom: 50px;
+}
+.project-nav{
+	font-family: 'Open Sans', sans-serif, sans-serif;
+	font-size: 14px;
+    margin-bottom: 50px;
+    text-align: end;
+}
+.project-nav li {
+    display: inline-block;
+}
+.project-nav li+li:before {
+  padding: 30px;
+  content: "/";
+}
+.project-nav li a {
+    color: black;
+}
+.project-grid-inner {
+	position: relative;
+}
+.project-grid-inner img{
+    width: 100%;
+    height: auto;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease-in-out;
+	background-color: #22a7f0;
+}
+.overlay:hover{
+	opacity: 1;
+}
+.overlay a {
+    color: white;
+    font-size: 35px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 767px){
+    .project-nav li+li:before {
+        padding: 10px;
+    }
+    .project-nav{
+        font-size: 12px;
+    }
+}

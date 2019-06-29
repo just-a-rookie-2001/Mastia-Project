@@ -1,0 +1,11 @@
+.contact-us .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.contact-us h1{
+    font-size: 35px;
+    line-height: 1.45;
+    color: #26a1e4;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 50px;
+}
