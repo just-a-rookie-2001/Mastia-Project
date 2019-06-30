@@ -1,0 +1,89 @@
+.full-article .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.full-article img{
+    width: 100%;
+    height: auto;
+}
+.full-article h1{
+    font-size: 24px;
+    font-family: 'Play',sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.full-article p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.full-article .share-with{
+    font-size: 14px;
+    color: #26a1e4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 13px 6px;
+    display: inline-block;
+}
+.full-article .button{
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.full-article .facebook{
+    background-color: #2f6ae0;
+    border: 1px solid;
+}
+.full-article .facebook:hover{
+    background-color: white;
+    color: #2f6ae0;
+}
+.full-article .twitter{
+    background-color: #0ea9fd;
+    border: 1px solid;
+}
+.full-article .twitter:hover{
+    background-color: white;
+    color: #0ea9fd;
+}
+.full-article .gp{
+    background-color: #c73252;
+    border: 1px solid;
+}
+.full-article .gp:hover{
+    background-color: white;
+    color: #c73252;
+}
+.full-article .instagram{
+    background-color: #595959;
+    border: 1px solid;
+}
+.full-article .instagram:hover{
+    background-color: white;
+    color: #595959;
+}
+.full-article h2{
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.recent-posts p{
+    margin-bottom: 0;
+}
+.submit-comment .container{
+    padding-bottom: 80px;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 991px){
+    .blog-categories{
+        display: none;
+    }
+}
