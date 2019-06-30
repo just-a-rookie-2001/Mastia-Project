@@ -1,0 +1,42 @@
+.blog .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.blog h1{
+    font-family: 'Play', sans-serif;
+    font-size: 35px;
+    color: #26a1e4;
+    margin-bottom: 50px;
+}
+.blog h3{
+    font-size: 24px;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.blog img{
+    width: 100%;
+    height: auto;
+}
+.blog p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.57;
+    color: #4b4b4b;
+}
+.blog h2{
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+/*Media Queries*/
+@media screen and (max-width: 991px){
+    .blog-categories{
+        display: none;
+    }
+}
